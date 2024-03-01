@@ -1,7 +1,7 @@
 let start;
 let isRunning = false;
 
-function startStop(){
+function startStops(){
     if(isRunning){
         isRunning = false;
         document.getElementById("startStop").innerText = "Start";
